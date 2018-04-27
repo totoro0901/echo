@@ -13,12 +13,14 @@ import '@/assets/css/reset.css'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import _ from 'lodash'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.config.productionTip = false
 
 Vue.use(MuseUI)
 Vue.use(_)
 Vue.use(Vuex)
+Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */
 new Vue({
