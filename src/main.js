@@ -15,12 +15,23 @@ import 'muse-ui/dist/muse-ui.css'
 import _ from 'lodash'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+// 自定义组件
+import musicBar from '@/components/musicBar'
+import sheet from '@/components/sheet'
+import banner from '@/components/banner'
+import list from '@/components/list'
+
 Vue.config.productionTip = false
 
 Vue.use(MuseUI)
 Vue.use(_)
 Vue.use(Vuex)
 Vue.use(VueAwesomeSwiper)
+
+Vue.component('music-bar', musicBar)
+Vue.component('my-sheet', sheet)
+Vue.component('my-banner', banner)
+Vue.component('my-list', list)
 
 /* eslint-disable no-new */
 new Vue({
