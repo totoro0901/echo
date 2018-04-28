@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <p>第三方123</p>
+    <p>banner</p>
   </div>
 </template>
 
