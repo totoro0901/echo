@@ -4,12 +4,14 @@
     <!--<router-link to="/banner"></router-link>-->
     <!--<router-link to="/"></router-link>-->
     <!--<router-view></router-view>-->
+    <!--轮播图-->
+    <my-banner></my-banner>
     <!-- 视图层 -->
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
+    <!--<keep-alive>-->
+      <!--<router-view></router-view>-->
+    <!--</keep-alive>-->
     <!-- 音乐控制条 -->
-    <music-bar></music-bar>
+    <!--<music-bar></music-bar>-->
     <!-- 页面加载进度条 -->
     <!--<vue-progress-bar></vue-progress-bar>-->
   </div>
