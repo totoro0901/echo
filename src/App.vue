@@ -11,7 +11,7 @@
       <!--<router-view></router-view>-->
     <!--</keep-alive>-->
     <!-- 音乐控制条 -->
-    <!--<music-bar></music-bar>-->
+    <music-bar></music-bar>
     <!-- 页面加载进度条 -->
     <!--<vue-progress-bar></vue-progress-bar>-->
   </div>
